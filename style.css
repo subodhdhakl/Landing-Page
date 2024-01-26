@@ -1,0 +1,195 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font.family: system-ui, apple-system, 'Segoe UI',Roboto, Oxygen, Ubuntu
+    margin: 0;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+.top{
+    background-color:#1F2937;
+}
+.header{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.title{
+    gap: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.infom{
+    width: 450px;
+}
+#tital{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+#para{
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.signbutton{
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+.plcimg{
+    width: 550px;
+    background-color: gray;
+}
+
+
+
+.body{
+    margin-right: 300px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infotitle{
+    margin-top:50px ;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.illustr{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    margin-bottom: 100px;
+}
+.illsplc{
+    width: 150px;
+    height: 150px;
+    border: solid 5px ;
+    border-color: #3882F6;
+    background-color:white;
+    border-radius: 15px;
+}
+figure{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 155px;
+}
+figcaption{
+    text-align: center;
+}
+
+.grayz{
+    padding: 100px;
+    background-color: #e5e7eb;
+    margin: 0;}
+.quotation{
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+.quote{
+    font-size: 36px;
+    font-style:italic;
+    font-weight:100;
+    color:#1F2937 ;}
+.author{
+    font-weight: 700;
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+}
+.ctazada{
+    padding: 80px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .cta{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+ }
+ .infocta{
+    color: #f9faf8;
+    font-size: 12px;
+ }
+ #ticta{
+    margin: 0;
+ }
+ #parcta{
+    margin: 0;
+ }
+ .ctabutton{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border:solid #e5e7eb 1px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-weight: 700;
+ }
+ .footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #f9faf8;
+    height:100px ;
+    background-color: #1F2937;
+    align-items: center;}
